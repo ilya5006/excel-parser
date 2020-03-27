@@ -15,8 +15,6 @@
     $i = 2;
     $j = ord('A');
 
-    // TODO: считываем все столбцы
-
     $quantityOfColumns = 0;
 
     while (getCellValue(chr($j++), 1) != '')

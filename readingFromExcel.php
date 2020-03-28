@@ -28,12 +28,9 @@
 
     while ($value != '')
     {
-        $value = getCellValue(chr($j), $i);
-        echo $value . ' ';
-
         while ($j - ord('A') + 1 <= $quantityOfColumns)
         {
-            $value = getCellValue(chr(++$j), $i);
+            $value = getCellValue(chr($j++), $i);
             echo $value . ' ';
         }
 
